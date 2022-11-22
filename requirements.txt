@@ -1,0 +1,4 @@
+pyrogram==1.4.6
+asyncio
+python-dotenv
+tgcrypto
