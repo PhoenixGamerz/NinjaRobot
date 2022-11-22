@@ -1,0 +1,34 @@
+{
+      "name": "ɴɪɴᴊᴀ ʀᴏʙᴏᴛ",
+      "description": "ᴛʜɪs ᴀ sɪᴍᴘʟᴇ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ʙᴀsᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ.",
+      "logo": "https://te.legra.ph/file/2b0faac5b95d1d3d0435d.jpg",
+      "keywords": [
+         "telegram",
+         "sexy",
+         "group",
+         "manager",
+         "Ninja"
+      ],   
+   "repository": "https://github.com/PhoenixGamerz/NinjaRobot",
+   "stack": "heroku-20",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "env": {
+      "BOT_TOKEN": {
+         "description": "Get bot token from @BotFather on TG",
+         "required": true,
+         "value": ""
+      },
+      "OWNER_ID": {
+         "description": "Get this value from @MissRose_bot.",
+         "required": true,
+         "value": ""
+      }
+   }
+}
